@@ -19,7 +19,7 @@ const Installation = () => {
         <div style={styles.terminalBody}>
           <div style={styles.commandRow}>
             <span style={styles.prompt}>$</span>
-            <span style={styles.command}>git clone https://github.com/your-username/wesee.git</span>
+            <span style={styles.command}>git clone https://github.com/Mayank-Narang/wesee.git</span>
           </div>
           <div style={styles.commandRow}>
             <span style={styles.prompt}>$</span>

@@ -10,7 +10,7 @@ const Navbar = () => {
       <div style={styles.navLinks}>
         <a href="#features" style={styles.link}>Features</a>
         <a href="#installation" style={styles.link}>Installation</a>
-        <a href="https://github.com/your-username/wesee" target="_blank" rel="noreferrer" style={styles.link}>GitHub</a>
+        <a href="https://github.com/Mayank-Narang/wesee" target="_blank" rel="noreferrer" style={styles.link}>GitHub</a>
       </div>
     </nav>
   );

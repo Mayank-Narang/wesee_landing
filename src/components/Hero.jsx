@@ -16,7 +16,7 @@ const Hero = () => {
           <a href="#installation" style={{ ...styles.button, ...styles.primaryBtn }}>
             Get Started
           </a>
-          <a href="https://github.com/your-username/wesee" target="_blank" rel="noreferrer" style={{ ...styles.button, ...styles.secondaryBtn }}>
+          <a href="https://github.com/Mayank-Narang/wesee" target="_blank" rel="noreferrer" style={{ ...styles.button, ...styles.secondaryBtn }}>
             View GitHub
           </a>
         </div>

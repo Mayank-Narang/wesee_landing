@@ -8,11 +8,16 @@ function App() {
   return (
     <>
       <Navbar />
-      <main style={{ marginTop: '80px', minHeight: '100vh' }}>
-        <Hero />
-        <Features />
-        <Installation />
-        {/* Components for future parts will go here */}
+      <main style={{ marginTop: '80px', minHeight: '100vh', paddingBottom: '4rem' }}>
+        <div className="animate-fade-in-up delay-100">
+          <Hero />
+        </div>
+        <div className="animate-fade-in-up delay-200">
+          <Features />
+        </div>
+        <div className="animate-fade-in-up delay-300">
+          <Installation />
+        </div>
       </main>
     </>
   );
