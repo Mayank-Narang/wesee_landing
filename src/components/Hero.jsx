@@ -25,17 +25,13 @@ const Hero = () => {
       <div style={styles.videoContainer}>
         {/* Placeholder for the demo video */}
         <div style={styles.videoWrapper} className="glass">
-          <video 
-            style={styles.video} 
-            autoPlay 
-            loop 
-            muted 
-            playsInline
-            poster="https://via.placeholder.com/800x450/1e1e1e/4ade80?text=Demo+Video+Placeholder"
-          >
-            <source src="/demo.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+          <iframe
+            style={{ ...styles.video, aspectRatio: '16/9', border: 'none' }}
+            src="https://www.youtube.com/embed/w0cUYbhhuyg?autoplay=1&mute=1&loop=1&playlist=w0cUYbhhuyg&controls=0&showinfo=0&rel=0&modestbranding=1"
+            title="WeSee Demo Video"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
         </div>
       </div>
     </section>
